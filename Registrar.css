@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box{
+
+    background: url(https://1.bp.blogspot.com/-syM_CdTY7hI/XiUVBS0ozSI/AAAAAAAAkd0/n5v58xozcZc_hX0a5h5fnT4_UMu_WJWwgCLcBGAsYHQ/w0/alien-moon-nature-4k-is-3840x2160.jpg);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    position:  relative;
+    align-items: center;
+    display: flex;
+}
+.inbox{
+    background-color:aliceblue;
+    padding: 30px 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:5px 5px 8px rgba(0, 0, 0, 0.349) ;
+}
+.head{
+    color:#555454;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head i{
+    margin-top: 45px;
+    cursor: pointer;
+}
+.head h1{
+    top: 0;
+    font-size: 40px;
+    border-bottom: 2px solid rgba(241, 139, 232, 0.815);;
+    width: 40px;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icones img{
+    width: 45px;
+    transition: 0.2s;
+}
+
+.icones img:hover{
+    transform: scale(1.2);
+
+}
+
+.inputs{
+    margin-top: 5%;
+    background-color: transparent;
+    border-bottom: 2px solid #050505;
+}
+
+.inputs input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.inputs label{
+    transform: translateY(-50%);
+}
+input:focus ~ label,
+input:valid ~ label {
+    top:-5px;
+}
+
+button{
+    margin-top: 10%;
+    border-radius: 3px;
+    border: none;
+    height: 25px;
+    width: 100%;
+    background-color:black;
+    color: #fff;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+button:hover{
+    color: #050505;
+    background-color: rgba(241, 139, 232, 0.815);
+    transform: scale(1.03);
+}
+
+.senha{
+    margin-top: 5%;
+}
+
+.senha a{
+    color: black;
+    text-decoration: none;
+    transition: 250ms;
+}
+.senha a:hover{
+color: rgb(122, 120, 120);
+}
